@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/app.css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="innerContainer">
+      <h1>
+        Weather now in
+        <span class="city"><%= weather.city %></span>
+      </h1>
+
+      <p>
+        <span class="title">Weather State: </span>
+        <span class="desc"><%= weather.state %></span>
+        <br><br>
+        <span class="title">Min Temperature: </span>
+        <span class="desc"><%= weather.min_temp %>&#8451;</span>
+        <br><br>
+        <span class="title">Max Temperature: </span>
+        <span class="desc"><%= weather.max_temp %>&#8451;</span>
+        <br><br>
+        <span class="title">Humidity: </span>
+        <span class="desc"><%= weather.humidity %>%</span>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

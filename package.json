@@ -1,0 +1,18 @@
+{
+  "name": "london-weather-app3",
+  "version": "1.0.0",
+  "description": "London Weather App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "mahsa dilmaghani",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4",
+    "request": "^2.85.0"
+  }
+}
