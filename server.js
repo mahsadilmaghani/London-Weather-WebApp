@@ -1,5 +1,7 @@
 var express = require('express')
 var request = require('request');
+const logger = require('./logger/logger');
+//console.log(logger);
 
 var app = express();
 
@@ -32,3 +34,4 @@ app.get('/', function(req, res){
 
 // listening to port 8000
 app.listen(8000);
+logger.info("Listening to port 8000");
